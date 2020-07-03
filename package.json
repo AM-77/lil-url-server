@@ -1,0 +1,24 @@
+{
+  "name": "lil-url-server",
+  "version": "1.0.0",
+  "description": "the lil-url server",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "express", "sqlite3", "lil-url"
+  ],
+  "author": "AM-77",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.10",
+    "sqlite3": "^5.0.0"
+  }
+}
